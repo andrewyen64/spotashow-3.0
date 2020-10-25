@@ -107,7 +107,7 @@ function Home() {
                         id={event.id}
                         location={event.venue.location}
                         date={new Date(Date.parse(event.datetime)).toString()}
-                        url={event.offers[0].url}
+                        url={event.url}
                         name={artistData.name}
                     />
                 })
