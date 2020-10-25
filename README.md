@@ -19,7 +19,7 @@
 ## Install
 
 ```sh
-npm install express sql2 sequelize
+npm install
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ In order to search something, the user types the artist's name into the search b
 
 ## Link to Application
 
-[damp-eyrie-26652.herokuapp.com](https://damp-eyrie-26652.herokuapp.com/)
+[spotashow-v3.herokuapp.com/](https://spotashow-v3.herokuapp.com/)
 
 ## Authors
 
