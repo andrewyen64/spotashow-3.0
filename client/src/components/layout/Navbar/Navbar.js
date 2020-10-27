@@ -12,9 +12,11 @@ export class Navbar extends Component {
                             <i className="material-icons">menu</i>
                         </a>
                         <ul className="right hide-on-med-and-down">
-                            <li><Link className="waves-effect" href to="/">Home</Link></li>
-                            <li><Link className="waves-effect" href to="/events">Events</Link></li>
-                            <li><Link className="waves-effect" href to="/login">Login</Link></li>
+                            <li><Link to="/" className="waves-effect">Home</Link></li>
+                            <li><Link to="/events" className="waves-effect">Events</Link></li>
+                            <li><Link to="/login" className="waves-effect">Login</Link></li>
+                            <li><Link to="/signup" className="waves-effect">Sign Up</Link></li>
+
                         </ul>
                     </div>
                 </nav>
