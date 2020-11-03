@@ -16,6 +16,7 @@ function CreateCard({ location, date, url, name }) {
                 name: name
             })
         }).then(res => {
+            console.log("Save complete!")
             return res.json();
         });
     }

@@ -1,7 +1,23 @@
 import React, { useState } from 'react'
 // import "./SavedEvent.css"
 
-function SavedEvent({ location, date, url, name }) {
+function SavedEvent({ id, location, date, url, name }) {
+    // const handleDelete = ({ id, location, date, url, name }) => {
+    //     fetch("/savedEvents/" + id, {
+    //         method: "DELETE",
+    //         headers: {
+    //         "Content-Type": "application/json"
+    //         },
+    //         body: JSON.stringify({
+    //             location: location,
+    //             date: date,
+    //             url: url,
+    //             name: name
+    //         })
+    //     }).then(res => {
+    //         return res.json();
+    //     });
+    // }
 
     return (
         <section id="events-searched">
@@ -10,6 +26,13 @@ function SavedEvent({ location, date, url, name }) {
                     <div className="col s12 m12 l10 push-l1 xl8 push-xl2">
                         <div className="card blue-grey darken-1">
                             <div className="card-image">
+                                <button className="btn-floating waves-effect waves-light red right"
+                                    onClick={() => {
+                                        // handleDelete({ location, date, url, name });
+                                    }}
+                                    style={{ marginRight: "10px", marginTop: "10px" }}>
+                                    <i className="material-icons">remove</i>
+                                </button>
                                 <button className="btn-floating waves-effect waves-light right"
                                     style={{ marginRight: "10px", marginTop: "10px" }}>
                                     <a href={url}

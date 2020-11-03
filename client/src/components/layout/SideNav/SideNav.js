@@ -24,8 +24,8 @@ export class SideNav extends Component {
                     <li><div className="divider"></div></li>
                     <li><Link to="/" className="waves-effect">Home</Link></li>
                     <li><Link to="/events" className="waves-effect">Events</Link></li>
-                    <li><Link to="/login" className="waves-effect">Login</Link></li>
-                    <li><Link to="/signup" className="waves-effect">Sign Up</Link></li>
+                    {/* <li><Link to="/login" className="waves-effect">Login</Link></li> */}
+                    {/* <li><Link to="/signup" className="waves-effect">Sign Up</Link></li> */}
             </ul>
         )
     }

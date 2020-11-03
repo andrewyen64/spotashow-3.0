@@ -3,6 +3,9 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const eventsSchema = new Schema({
+  // _id: {
+  //   type: String
+  // },
   location: {
     type: String
   },
