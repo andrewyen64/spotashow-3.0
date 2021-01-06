@@ -37,7 +37,7 @@ In order to search something, the user types the artist's name into the search b
 
 ## Authors
 
-👤 **Andrew Yen, Monica Rangel, Raffay Ahemd, Jaquelin Rocha**
+👤 **Monica Rangel, Andrew Yen, Raffay Ahmed, Jaquelin Rocha**
 
 ## License
 
