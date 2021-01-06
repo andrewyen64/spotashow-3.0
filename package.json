@@ -26,20 +26,20 @@
   },
   "homepage": "https://github.com/monicarangel95/Project-2#readme",
   "dependencies": {
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.4",
+    "connect-mongo": "^2.0.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-session": "^1.15.6",
+    "http-proxy-middleware": "^1.0.6",
+    "if-env": "^1.0.4",
     "mongoose": "^5.3.16",
     "morgan": "^1.9.1",
-    "compression": "^1.7.4",
-    "bcryptjs": "^2.4.3",
-    "body-parser": "^1.18.2",
-    "connect-mongo": "^2.0.1",
-    "http-proxy-middleware": "^1.0.6",
     "passport": "^0.4.0",
-    "passport-local": "^1.0.0",
-    "if-env": "^1.0.4"
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "concurrently": "^4.1.0",
