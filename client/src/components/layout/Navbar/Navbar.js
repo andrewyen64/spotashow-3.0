@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom";
-import "materialize-css/dist/css/materialize.min.css";
+import "./Navbar.css"; 
 export class Navbar extends Component {
     render() {
         return (
@@ -12,10 +12,10 @@ export class Navbar extends Component {
                             <i className="material-icons">menu</i>
                         </a>
                         <ul className="right hide-on-med-and-down">
-                            <li><Link to="/" className="waves-effect">Home</Link></li>
-                            <li><Link to="/events" className="waves-effect">Events</Link></li>
-                            {/* <li><Link to="/login" className="waves-effect">Login</Link></li> */}
-                            {/* <li><Link to="/signup" className="waves-effect">Sign Up</Link></li> */}
+                            <li><Link to="/" className="nav-name">Home</Link></li>
+                            <li><Link to="/events" className="nav-name">Events</Link></li>
+                            {/* <li><Link to="/login" className="nav-name">Login</Link></li> */}
+                            {/* <li><Link to="/signup" className="nav-name">Sign Up</Link></li> */}
 
                         </ul>
                     </div>
