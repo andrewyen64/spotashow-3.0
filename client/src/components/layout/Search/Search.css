@@ -10,6 +10,7 @@
     background-color: #f7f7f7;
     height: 70px;
     margin-top: 60px;
+    border-radius: 10px;
 }
 
 #search-button {
